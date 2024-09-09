@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #008cba;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    margin: 20px;
+}
+
+nav a {
+    background-color: #008cba;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Gallery Styles */
+#gallery {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    margin: 10px;
+    border-radius: 10px;
+    max-height: 500px;  /* Optional: Limit max height */
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .gallery img {
+        width: 100%;
+        height: auto;
+        margin: 5px 0;
+    }
+}
